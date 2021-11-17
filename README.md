@@ -76,10 +76,6 @@ https://docs.octifi.com/magento-integration-guide
 - fixed JS model layers issue
 
 = 2.1.0 =
-- sandbox and live add 
-- Home page text, home page text enable disable show add
-- Minimum sum bug fix
-- security upgrade
-- design issue fix
+- Colour palette change and font change
 - Added latitudepay logo
 - Renamed octifi to latitudepay
