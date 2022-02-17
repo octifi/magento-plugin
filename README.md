@@ -79,3 +79,10 @@ https://docs.octifi.com/magento-integration-guide
 - Colour palette change and font change
 - Added latitudepay logo
 - Renamed octifi to latitudepay
+
+= 2.1.1 = 
+- code structure change 
+
+= 2.1.2 =
+- Test mode alert added
+- css change
