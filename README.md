@@ -86,3 +86,11 @@ https://docs.octifi.com/magento-integration-guide
 = 2.1.2 =
 - Test mode alert added
 - css change
+
+= 2.1.3 =
+
+- Learn more - T&C link to change
+- Learn more - "We accept all the major bank debit cards"
+- Reduce the radius of the Learn more pop up
+- select country field added - Select the country dropdown
+- Based on selected country - use the respective env variables
