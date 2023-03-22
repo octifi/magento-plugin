@@ -94,7 +94,10 @@ https://docs.octifi.com/magento-integration-guide
 - Reduce the radius of the Learn more pop up
 - select country field added - Select the country dropdown
 - Based on selected country - use the respective env variables
+
+
 = 2.1.4 = 
+
 - Big ticket update
 - .env update for sandbox
 
