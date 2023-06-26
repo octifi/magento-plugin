@@ -1,9 +1,22 @@
-# OctiFi magento plugin latest download
+magento2-octifi
+======================
 
-Steps for integration
-https://docs.octifi.com/magento-integration-guide
+Octifi payment gateway Magento2 extension
 
+## License
 
+This project is licensed under the Apache License 2.0. See the [LICENSE](./license.txt) file for details.
+
+Install
+=======
+
+1. Upload code to folder app/code/Octifi/Octifi
+
+2.  Enter following commands to install module:
+    php bin/magento setup:upgrade
+    php bin/magento setup:static-content:deploy
+
+4. Enable and configure Octifi in Magento Admin under Stores -> Configuration-> Sales -> Payment Methods -> Octifi
 
 == Changelog ==
 
@@ -88,9 +101,24 @@ https://docs.octifi.com/magento-integration-guide
 - css change
 
 = 2.1.3 =
-
 - Learn more - T&C link to change
 - Learn more - "We accept all the major bank debit cards"
 - Reduce the radius of the Learn more pop up
 - select country field added - Select the country dropdown
 - Based on selected country - use the respective env variables
+
+= 2.1.4 =
+- Big ticket update
+- .env update for sandbox
+
+= 2.1.5 =
+- Magento code sniffer - coding standards
+
+= 2.1.6 =
+- Apache License content included in all code files
+
+= 2.1.7 =
+- API base URLs updated
+- Images URLs fixed on promotional overlay
+- Vendor name changed from Octifi to latitudepayasia in composer file
+- Updated the version into module and composer file.
